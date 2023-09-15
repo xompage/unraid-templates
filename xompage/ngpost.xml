@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container version="2">
   <Name>ngpost</Name>
-  <Repository>docker pull ghcr.io/xompage/ngpost</Repository>
+  <Repository>ghcr.io/xompage/ngpost</Repository>
   <Registry>https://github.com/xompage/ngpost/pkgs/container/ngpost</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
@@ -10,7 +10,7 @@
   <Category>Network:Other Productivity Tools:Utilities</Category>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/ngpost.png</Icon>
-  <Overview>Command-line (or minimalist GUI) usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.</Overview>
+  <Overview>Command-line and minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.</Overview>
   <Description/>
   <MyIP/>
   <ExtraParams/>
