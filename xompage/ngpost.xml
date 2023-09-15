@@ -16,10 +16,10 @@
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
-  <Config Name="Host Path for /config" Target="/config" Default="" Mode="rw" Description="Container Path: /config" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Container Path: /output" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Container Path: /storage" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container Variable: PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Variable: PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
-  <Config Name="UMASK" Target="UMASK" Default="002" Mode="" Description="Container Variable: UMASK" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Location for the logs and nzbs" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Location of the data to post" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
 </Container>
