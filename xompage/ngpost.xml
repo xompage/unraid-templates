@@ -10,12 +10,14 @@
   <Category>Network:Other Productivity Tools:Utilities</Category>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/ngpost.png</Icon>
-  <Overview>Command-line and minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.</Overview>
+  <Overview>ngPost(https://github.com/mbruel/ngPost) is a command-line and a minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.</Overview>
   <Description/>
   <MyIP/>
+  <WebUI>http://[IP]:[PORT:7070]</WebUI>
   <ExtraParams/>
   <PostArgs/>
   <Network>bridge</Network>
+  <Config Name="Host Port for 7070" Target="7070" Default="7070" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Location for the logs and nzbs" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Location of the data to post" Type="Path" Display="always" Required="true" Mask="false"/>
