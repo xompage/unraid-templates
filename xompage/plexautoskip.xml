@@ -8,7 +8,7 @@
   <Support>https://github.com/mdhiggins/PlexAutoSkip/issues</Support>
   <Project>https://github.com/mdhiggins/PlexAutoSkip</Project>
   <Category>Tools:Utilities MediaServer:Other</Category>
-  <TemplateURL>false</TemplateURL>
+  <TemplateURL/>
   <Overview>Automatically skip tagged content in Plex.</Overview>
   <Description/>
   <MyIP/>
