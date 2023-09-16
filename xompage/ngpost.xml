@@ -5,7 +5,7 @@
   <Registry>https://github.com/xompage/ngpost/pkgs/container/ngpost</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/mbruel/ngPost/issues</Support>
+  <Support>https://forums.unraid.net/topic/145208-support-xompage-ngpost/</Support>
   <Project>https://github.com/mbruel/ngPost</Project>
   <Category>Network:Other Productivity Tools:Utilities</Category>
   <TemplateURL/>
