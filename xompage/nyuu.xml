@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>Nyuu</Name>
+  <Repository>ghcr.io/xompage/nyuu</Repository>
+  <Registry>https://github.com/xompage/nyuu/pkgs/container/nyuu</Registry>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/145502-support-xompage-nyuu/</Support>
+  <Project>https://github.com/animetosho/Nyuu</Project>
+  <Category>Network:Other Productivity Tools:Utilities</Category>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/animetosho.png</Icon>
+  <Overview>Nyuu(https://github.com/animetosho/Nyuu) is a command-line binary usenet poster.
+  It's designed primarily to be fast/efficient, reliable and customizable, exposing all the interesting bits and pieces. From what I’ve seen, Nyuu excels more than any other usenet posting client in these aspects.
+  Includes patches to fix the yenc header filename obfuscation with a new `--obfuscate-articles` setting (credits for anon for the original fix).</Overview>
+  <Description/>
+  <MyIP/>
+  <WebUI/>
+  <ExtraParams/>
+  <PostArgs/>
+  <Network>bridge</Network>
+  <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Location for temporary files, logs and nzbs" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Location of the data to post" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false"/>
+</Container>
