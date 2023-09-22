@@ -10,7 +10,8 @@
   <Category>Network:Other Productivity Tools:Utilities</Category>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/ngpost.png</Icon>
-  <Overview>ngPost(https://github.com/mbruel/ngPost) is a command-line and a minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.</Overview>
+  <Overview>ngPost(https://github.com/mbruel/ngPost) is a command-line and a minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.
+  Includes patches to fix the yenc header filename obfuscation when using article obfuscation (credits to anon for the original fix).</Overview>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:7070]</WebUI>
