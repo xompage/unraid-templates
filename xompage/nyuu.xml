@@ -7,9 +7,6 @@
     <Tag>edge</Tag>
     <TagDescription>master branch</TagDescription>
   </Branch>
-  <Branch>
-    <TagDescription>Releases</TagDescription>
-  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/145502-support-xompage-nyuu/</Support>
