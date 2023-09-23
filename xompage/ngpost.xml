@@ -5,13 +5,16 @@
   <Registry>https://github.com/xompage/ngpost/pkgs/container/ngpost</Registry>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/topic/145208-support-xompage-ngpost/</Support>
+  <Support>https://github.com/mbruel/ngPost/issues</Support>
   <Project>https://github.com/mbruel/ngPost</Project>
   <Category>Network:Other Productivity Tools:Utilities</Category>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/ngpost.png</Icon>
   <Overview>ngPost(https://github.com/mbruel/ngPost) is a command-line and a minimalist GUI usenet poster for binaries developped in C++/QT designed to be as fast as possible and offer all the main features to post data easily and safely.
   Includes patches to fix the yenc header filename obfuscation when using article obfuscation (credits to anon for the original fix).</Overview>
+  <Changes>* 19/09/2023 - Added nzbcheck utility.
+* 18/09/2023 - Applied ngPost article obfuscation fix with 32-62 random characters for each article yenc name. Credits to anon for the original fix.
+* 17/09/2023 - Initial release with ngPost version 4.16.</Changes>
   <Description/>
   <MyIP/>
   <WebUI>http://[IP]:[PORT:7070]</WebUI>
@@ -20,7 +23,7 @@
   <Network>bridge</Network>
   <Config Name="Host Port for 7070" Target="7070" Default="7070" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="Appdata" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
-  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Location for temporary files, the logs and nzbs" Type="Path" Display="always" Required="true" Mask="false"/>
+  <Config Name="Host Path for /output" Target="/output" Default="" Mode="rw" Description="Location for the logs and nzbs" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="Host Path for /storage" Target="/storage" Default="" Mode="rw" Description="Location of the data to post" Type="Path" Display="always" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false"/>
