@@ -9,7 +9,7 @@
   </Branch>
   <Branch>
     <Tag>release</Tag>
-    <TagDescription>Releases</TagDescription>
+    <TagDescription>Version Releases</TagDescription>
   </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
