@@ -3,6 +3,13 @@
   <Name>Nyuu</Name>
   <Repository>ghcr.io/xompage/nyuu</Repository>
   <Registry>https://github.com/xompage/nyuu/pkgs/container/nyuu</Registry>
+  <Branch>
+    <Tag>edge</Tag>
+    <TagDescription>master branch</TagDescription>
+  </Branch>
+  <Branch>
+    <TagDescription>Releases</TagDescription>
+  </Branch>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/145502-support-xompage-nyuu/</Support>
