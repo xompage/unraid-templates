@@ -20,7 +20,10 @@
   <Icon>https://raw.githubusercontent.com/xompage/unraid-templates/master/xompage/icons/animetosho.png</Icon>
   <Overview>Nyuu(https://github.com/animetosho/Nyuu) is a command-line binary usenet poster.
   It's designed primarily to be fast/efficient, reliable and customizable, exposing all the interesting bits and pieces. From what I’ve seen, Nyuu excels more than any other usenet posting client in these aspects.
-  Includes patches to fix the yenc header filename obfuscation with a new `--obfuscate-articles` setting (credits for anon for the original fix).</Overview>
+  Includes patches to fix the yenc header filename obfuscation with a new `--obfuscate-articles` setting (credits for anon for the original fix).
+
+  *Note: No WebUI is available for Nyuu, so Console usage is a must.
+  See quick start guide in Support Thread.*</Overview>
   <Changes>* 23/09/2023 - Added edge tag for Nyuu master branch. Fixed article obfuscation bug. Fixed filename length bug.
 * 22/09/2023 - Initial release with Nyuu v0.4.1.</Changes>
   <Description/>
