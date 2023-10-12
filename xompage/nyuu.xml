@@ -24,7 +24,8 @@
 
   *Note: No WebUI is available for Nyuu, so Console usage is a must.
   See quick start guide in Support Thread.*</Overview>
-  <Changes>* 24/09/2023 - Fixed a bug preventing the removal of the 'User-Agent' header.
+  <Changes>* 12/10/2023 - Fixed article length mismatch error when retrying a failed post.
+* 24/09/2023 - Fixed a bug preventing the removal of the 'User-Agent' header.
 * 23/09/2023 - Added edge tag for Nyuu master branch. Fixed article obfuscation bug. Fixed filename length bug.
 * 22/09/2023 - Initial release with Nyuu v0.4.1.</Changes>
   <Description/>
